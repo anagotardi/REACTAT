@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto Mono', monospace;
+}
+
+nav {
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+li {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(51,51,51);
+  padding: 10px 20px;
+}
+
+a:hover {
+  color: #7a7a7a;
+  text-decoration: underline;
+}
+
+#contact {
+  text-align: left;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+#contact form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contact form input,
+#contact form textarea {
+  margin: 20px 50px;
+  width: 50%;
+  padding: 10px;
+  border-radius: 100px;
+  border: solid 0.5px #e4e4e4;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#contact form button {
+  margin: 20px 40px; /* Ajuste de margem */
+  width: 30%; /* Ajuste de largura */
+  margin-left: 220px;
+  border-radius: 100px;
+  border: none;
+  background-color: #6975e8;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  font-family: 'Roboto Mono', monospace;
+  font-size: large;
+}
+
+.form{
+  width: 300px;
+}
+
+.column-left {
+  width: 30%;
+  margin: 0 10%;
+  font-family: 'Roboto mono', monospace;
+  color: rgb(53, 53, 53);
+}
+
+.linha {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.linha h1 {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.imagem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.imagem img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+
+#contact form input,
+#contact form textarea {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#contact form button {
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 10px;
+}
+
+.linha h1 {
+  text-align: left;
+  margin-top: 50px; /* Reduzindo a margem superior */
+  margin-bottom: 0px; /* Reduzindo a margem inferior */
+}
+
+.imagem {
+  width: fit-content;
+}
+
+.vertical-line {
+  border-left: 1px solid #ccc;
+  height: 400px; /* Ajuste conforme necessário */
+  margin: 10px 0px; /* Ajuste conforme necessário */
+}
+
+.column-left {
+  position: relative; /* Para que a linha seja posicionada em relação a este elemento */
+}

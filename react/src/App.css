@@ -1,0 +1,334 @@
+body {
+  font-family: 'Roboto Mono', monospace;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+li {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(51,51,51);
+  padding: 10px 20px;
+}
+
+a:hover {
+  color: #7a7a7a;
+  text-decoration: underline;
+}
+
+.inicio {
+  text-align: left;
+  padding: 40px;
+  margin-right: 390px;
+  position: relative;
+}
+
+.parkour img {
+  width: 400px; 
+  margin-right: 49px; 
+  display: inline-block;
+  vertical-align: middle; 
+}
+
+h1 {
+  font-size: xx-large;
+}
+
+.botao {
+  font-family: 'Roboto Mono', monospace;
+  border: solid 10px rgb(51, 51, 51);
+  border-radius: 20px;
+  color: white;
+  background-color: rgb(51,51,51);
+  margin-top: 20px;
+  padding: 10px 20px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  background-color: rgb(241, 194, 176);
+  width: 250px;
+  padding: 8px;
+  border-radius: 10px;
+  margin: 11px;
+  display: flex;
+  position: relative;
+}
+
+.card h1{
+  color: #ffffff;
+}
+
+.card p{
+  color: #333333;
+}
+
+.card h2{
+  color: #333333;
+}
+
+.card img{
+  width: 50px;
+  height: auto;
+  margin: 2px;
+}
+
+.card2 {
+  background-color: rgb(249, 235, 152);
+  width: 250px;
+  padding: 8px;
+  border-radius: 8px;
+  margin: 10px;
+  display: flex;
+  position: relative;
+}
+
+.card2 h1{
+  color: #ffffff;
+}
+
+.card p{
+  color: #333333;
+}
+
+.card2 h2{
+  color: #333333;
+}
+
+.card2 img{
+  width: 50px;
+  height: auto;
+  margin: 2px;
+}
+
+.card3 {
+  background-color: rgb(192, 217, 221);
+  width: 250px;
+  padding: 8px;
+  border-radius: 10px;
+  margin: 8px;
+  display: flex;
+  position: relative;
+}
+
+.card3 h1{
+  color: #ffffff;
+}
+
+.card3 p{
+  color: #333333;
+}
+
+.card3 h2{
+  color: #333333;
+}
+
+.card3 img{
+  width: 50px;
+  height: auto;
+  margin: 2px;
+}
+
+.card4 {
+  background-color:rgb(105, 117, 232);
+  width: 250px;
+  padding: 8px;
+  border-radius: 10px;
+  margin: 8px;
+  display: flex;
+  position: relative;
+}
+
+.card4 h1{
+  color: #ffffff;
+}
+
+.card4 p{
+  color: #333333;
+}
+
+.card4 h2{
+  color: #333333;
+}
+
+.card img{
+  width: 50px;
+  height: auto;
+  margin: 2px;
+}
+
+.platform-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 20px;
+  position: absolute;
+  top: 8px; 
+  right: 8px;
+}
+
+h1, h2, p {
+  margin: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto Mono', monospace;
+}
+
+nav {
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+li {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(51,51,51);
+  padding: 10px 20px;
+}
+
+a:hover {
+  color: #7a7a7a;
+  text-decoration: underline;
+}
+
+#contact {
+  text-align: left;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+#contact form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contact form input,
+#contact form textarea {
+  margin: 20px 50px;
+  width: 50%;
+  padding: 10px;
+  border-radius: 100px;
+  border: solid 0.5px #e4e4e4;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#contact form button {
+  margin: 20px 40px; 
+  width: 30%;
+  margin-left: 220px;
+  border-radius: 100px;
+  border: none;
+  background-color: #6975e8;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  font-family: 'Roboto Mono', monospace;
+  font-size: large;
+}
+
+.form{
+  width: 300px;
+}
+
+.column-left {
+  width: 30%;
+  margin: 0 10%;
+  font-family: 'Roboto mono', monospace;
+  color: rgb(53, 53, 53);
+}
+
+.linha {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.linha h1 {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.imagem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.imagem img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+
+#contact form input,
+#contact form textarea {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#contact form button {
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 10px;
+}
+
+.linha h1 {
+  text-align: left;
+  margin-top: 50px; 
+  margin-bottom: 0px; 
+}
+
+.imagem {
+  width: fit-content;
+}
+
+.vertical-line {
+  border-left: 1px solid #ccc;
+  height: 400px; 
+  margin: 10px 0px; 
+}
+
+.column-left {
+  position: relative; 
+}

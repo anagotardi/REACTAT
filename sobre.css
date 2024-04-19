@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.container {
+    max-width: 1200px; 
+    margin: 0 auto; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 20px;
+}
+
+nav {
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    display: inline;
+    margin-right: 20px; 
+}
+
+a {
+    text-decoration: none;
+    color: rgb(51,51,51);
+    padding: 10px 20px;
+}
+
+a:hover {
+    color: #7a7a7a;
+    text-decoration: underline;
+}
+
+.inicio {
+    text-align: left;
+    padding: 40px;
+    width: 50%; 
+}
+
+p{
+    margin-top: 30px;
+}
+
+.botao {
+    font-family: 'Roboto Mono', monospace;
+    border: solid 10px rgb(51, 51, 51);
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(51,51,51);
+    margin-top: 30px;
+    padding: 10px 20px;
+}
+
+.celular {
+    width: 50%; 
+    text-align: right;
+    margin-right: 40px;
+}
+
+.celular img {
+    width: 200px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 20px;
+}
